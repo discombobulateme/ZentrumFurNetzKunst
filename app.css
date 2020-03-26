@@ -1,0 +1,70 @@
+body {
+  background: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #A5F800;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.blurb h2{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+  color: white;
+}
+
+#mainNavbar .nav-link:hover{
+  color: #A5F800;
+}
+
+#mainNavbar .navbar-brand {
+  color: #EA1C2C;
+}
+
+#headingGroup span{
+  color: #A5F800;
+}
+
+#headingGroup h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar.scrolled {
+  background: rgb(0, 0, 0, 70%);
+  transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1{
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
